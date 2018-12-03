@@ -1,0 +1,93 @@
+[/]
+quake-tab-position='top'
+quake-height-percent=32
+tab-position='top'
+copy-on-select=true
+terminal-title-style='none'
+theme-variant='dark'
+use-tabs=true
+terminal-title-show-when-single=false
+window-style='disable-csd-hide-toolbar'
+
+[profiles/ef3ef2b2-9369-415b-b7ff-a82eeb4d4d12]
+cursor-shape='block'
+cursor-colors-set=false
+bold-color-set=false
+terminal-bell='none'
+scroll-on-keystroke=true
+cjk-utf8-ambiguous-width='narrow'
+default-size-rows=24
+encoding='UTF-8'
+triggers=@as []
+automatic-switch=@as []
+custom-command=''
+visible-name='External Monitor'
+text-blink-mode='always'
+terminal-title='${id}: ${title}'
+use-theme-colors=true
+cell-height-scale=1.0
+badge-text=''
+exit-action='close'
+use-system-font=true
+backspace-binding='ascii-delete'
+rewrap-on-resize=true
+foreground-color='#A7A7A7'
+login-shell=true
+background-transparency-percent=0
+cursor-blink-mode='system'
+dim-transparency-percent=0
+bold-is-bright=true
+cell-width-scale=1.0
+default-size-columns=80
+background-color='#1E1E1E'
+cursor-foreground-color='#ffffff'
+allow-bold=true
+palette=['#000000', '#CC0000', '#4D9A05', '#C3A000', '#3464A3', '#754F7B', '#05979A', '#D3D6CF', '#545652', '#EF2828', '#89E234', '#FBE84F', '#729ECF', '#AC7EA8', '#34E2E2', '#EDEDEB']
+notify-silence-threshold=0
+badge-color='#ffffff'
+highlight-foreground-color='#ffffff'
+font='Monospace 12'
+delete-binding='delete-sequence'
+badge-position='northeast'
+custom-hyperlinks=@as []
+scrollback-unlimited=true
+cursor-background-color='#000000'
+highlight-background-color='#000000'
+scroll-on-output=false
+select-by-word-chars='-,./?%&#:_'
+use-custom-command=false
+badge-color-set=false
+bold-color='#ffffff'
+highlight-colors-set=false
+scrollback-lines=8192
+show-scrollbar=true
+
+[profiles]
+list=['2b7c4080-0ddd-46c5-8f23-563fd3ba789d', 'ef3ef2b2-9369-415b-b7ff-a82eeb4d4d12']
+
+[profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+foreground-color='#A7A7A7'
+visible-name='Default'
+login-shell=true
+palette=['#1E1E1E', '#CF6A4C', '#8F9D6A', '#F9EE98', '#7587A6', '#9B859D', '#AFC4DB', '#A7A7A7', '#5F5A60', '#CF6A4C', '#8F9D6A', '#F9EE98', '#7587A6', '#9B859D', '#AFC4DB', '#FFFFFF']
+badge-color-set=false
+cursor-colors-set=false
+highlight-colors-set=false
+use-theme-colors=false
+bold-color-set=false
+terminal-bell='none'
+scrollback-unlimited=true
+background-color='#1E1E1E'
+
+[keybindings]
+session-switch-to-next-terminal='<Alt>bracketright'
+win-switch-to-next-session='<Alt>braceright'
+terminal-paste='<Primary>v'
+win-switch-to-previous-session='<Alt>braceleft'
+session-add-right='<Alt>d'
+session-add-down='<Shift><Alt>d'
+win-fullscreen='<Alt>Return'
+app-new-session='<Alt>t'
+terminal-maximize='<Shift><Alt>Return'
+session-switch-to-previous-terminal='<Alt>bracketleft'
+terminal-copy='<Primary>c'
