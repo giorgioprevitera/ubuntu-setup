@@ -32,7 +32,9 @@ sudo apt install -y \
     urlview \
     vim-gnome \
     xclip \
-    zlib1g-dev
+    zlib1g-dev \
+    shellcheck \
+    ipcalc
 
 # Pyenv
 test -d ~/.pyenv || git clone https://github.com/pyenv/pyenv.git ~/.pyenv
@@ -102,6 +104,9 @@ sudo systemctl disable avahi-daemon
 sudo systemctl disable avahi-daemon.socket
 sudo systemctl stop avahi-daemon.socket
 sudo systemctl stop avahi-daemon
+
+# Disable power management for wifi
+sudo sed -i 's/^wifi.powersave = 3/wifi.powersave = 2/' /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
 
 # Clean up
 sudo apt autoremove
